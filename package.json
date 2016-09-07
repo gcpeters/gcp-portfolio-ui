@@ -7,7 +7,7 @@
     "test": "test",
     "build": "./node_modules/webpack/bin/webpack.js --config webpack.config.js --progress --profile --colors",
 	"watch": "npm run build -- --watch",
-    "nodemon": "./node_modules/nodemon/bin/nodemon.js ./src/server/server.js",
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js ./src/js/server/server.js",
     "dev": "npm run nodemon"
   },
   "author": "GCP",

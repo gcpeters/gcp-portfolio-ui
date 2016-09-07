@@ -9,7 +9,7 @@ const HOST = process.env.HOST || 'gcp.dev';
 const PORT = process.env.PORT || '3000';
 
 module.exports = {
-	entry: `./src/client/App.jsx`,
+	entry: `./src/js/client/App.jsx`,
 	output: {
 		path: path.join(__dirname, 'build/js'),
 		filename: 'client.js'
